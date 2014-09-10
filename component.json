@@ -1,0 +1,17 @@
+{
+  "name": "javascript",
+  "repo": "grammarjs/javascript",
+  "description": "JavaScript Grammar",
+  "version": "0.0.1",
+  "keywords": ["peg", "grammar", "javascript"],
+  "dependencies": {
+    "grammarjs/grammar": "0.3.x"
+  },
+  "development": {
+    "grammarjs/recursive-parser": "0.3.x",
+    "visionmedia/mocha": "*",
+    "component/assert": "*"
+  },
+  "scripts": ["index.js"],
+  "license": "MIT"
+}

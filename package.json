@@ -1,0 +1,20 @@
+{
+  "name": "grammarjs-javascript",
+  "version": "0.0.1",
+  "description": "JavaScript Grammar",
+  "keywords": [
+    "peg",
+    "grammar",
+    "javascript"
+  ],
+  "main": "./index.js",
+  "dependencies": {
+    "grammarjs-grammar": "~0.3.x",
+    "grammarjs-punctuation": "*",
+    "grammarjs-unicode": "*"
+  },
+  "devDependencies": {
+    "grammarjs-recursive-parser": "~0.3.x",
+    "mocha": "^1.21.4"
+  }
+}
